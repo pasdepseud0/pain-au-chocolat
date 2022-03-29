@@ -1,0 +1,10 @@
+- uses: actions/checkout@v3
+    with:
+
+    repository: ''
+
+    ref: ''
+
+    echo: ''
+
+    -skh --exclude=".git"
