@@ -1,10 +1,35 @@
-- uses: actions/checkout@v3
-    with:
+- name: Checkout
+- uses: actions/checkout@v3 #1.action to fetch the repository’s files
+- run: echo "$GITHUB_CONTEXT" ; -skh --exclude=".git"
 
-    repository: ''
 
-    ref: ''
 
-    echo: ''
 
-    -skh --exclude=".git"
+
+
+
+  # with:
+  #   repository: ''
+
+  #   ref: ''
+
+  #   token: ''
+
+  #   ssh-key: ''
+
+  #   ssh-known-hosts: ''
+
+  #   ssh-strict: ''
+
+  #   persist-credentials: ''
+
+  #   path: ''
+
+  #   clean: ''
+
+  #   fetch-depth: ''
+
+  #   lfs: ''
+
+  #   submodules: ''
+
